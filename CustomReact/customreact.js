@@ -24,7 +24,6 @@ const newElement = {
     props: {
         href : 'https://www.google.com',
         target: '_blank',
-        style: ''
 
     },
     childern: 'Visit to Google'
@@ -33,3 +32,5 @@ const newElement = {
 const customDom = document.getElementById('root') 
 
 customRendor(newElement , customDom)
+
+console.log(newElement);
