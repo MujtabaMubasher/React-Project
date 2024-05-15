@@ -6,11 +6,11 @@ function profile() {
  
     if (!user) return <div>Please Login</div>
     return (
-    <>
-       <div>UserName: {user.userName}</div>
-       <div>Password: {user.password}</div>
+        <>
+            <div>UserName: {user.userName}</div>
+            <div>Password: {user.password}</div>
 
-    </>  
+        </>
     )
     
  
